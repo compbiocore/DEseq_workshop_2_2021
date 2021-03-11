@@ -13,4 +13,3 @@ COPY ./packages.R /home
 COPY ./deseq_workshop_2.ipynb /home
 
 RUN Rscript /home/packages.R
-
