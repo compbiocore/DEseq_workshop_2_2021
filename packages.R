@@ -4,6 +4,24 @@
 # the standard install.packages() function; for Bioconductor packages, however, you 
 # must first install BiocManager and then use that for installs. 
 
- install.packages("BiocManager", dependencies=TRUE, repos='http://cran.rstudio.com/')
- install.packages(c("ggplot2", "pheatmap", "RColorBrewer", "PoiClaClu", "patchwork", "tidyr", "GGally"), dependencies=TRUE, repos='http://cran.rstudio.com/')
- BiocManager::install(c("airway", "DESeq2", "vsn", "biomaRt", "AnnotationHub", "SummarizedExperiment", "WGCNA", "clusterProfiler", "enrichplot", "apeglm"))
+#update.packages(repos='http://cran.us.r-project.org', ask=FALSE)
+
+BiocManager::install("airway", update = FALSE, ask = FALSE)
+BiocManager::install("DESeq2", update = FALSE, ask = FALSE)
+BiocManager::install("vsn", update = FALSE, ask = FALSE)
+BiocManager::install("biomaRt", update = FALSE, ask = FALSE)
+BiocManager::install("SummarizedExperiment", update = FALSE, ask = FALSE)
+BiocManager::install("WGCNA", update = FALSE, ask = FALSE)
+BiocManager::install("clusterProfiler", update = FALSE, ask = FALSE) 
+BiocManager::install("enrichplot", update = FALSE, ask = FALSE)
+BiocManager::install("apeglm", update = FALSE, ask = FALSE)
+BiocManager::install("AnnotationHub", ask = FALSE)
+#install.packages("IRkernel", dependencies=TRUE, repos='http://cran.rstudio.com/')
+
+install.packages("ggplot2", dependencies=TRUE, repos='http://cran.rstudio.com/')
+install.packages("pheatmap", dependencies=TRUE, repos='http://cran.rstudio.com/')
+install.packages("RColorBrewer", dependencies=TRUE, repos='http://cran.rstudio.com/')
+install.packages("PoiClaClu", dependencies=TRUE, repos='http://cran.rstudio.com/')
+install.packages("patchwork", dependencies=TRUE, repos='http://cran.rstudio.com/')
+install.packages("tidyr", dependencies=TRUE, repos='http://cran.rstudio.com/')
+install.packages("GGally", dependencies=TRUE, repos='http://cran.rstudio.com/')
