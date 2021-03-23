@@ -1,0 +1,9 @@
+repo: DEseq_workshop_2_2021
+site_name: DESeq Workshop 2 - Differential Expression Analysis
+authors:
+  - name: Joselynn Wallace
+    github_user: jrwallace
+repo_url: https://github.com/compbiocore/DEseq_workshop_2_2021
+site_description: "This workshop focuses on diferential expression analysis, including model building and incorporating experimental design. It also covers downstream network analysis, including gene set enrichment analysis, over representation analysis, and weighted gene co-expression network analysis."
+docs_url: https://compbiocore.github.io/deseq_2/
+type: workshops
